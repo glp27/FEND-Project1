@@ -1,0 +1,82 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 424px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  .feat_images {
+    width: 80% ;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .feat_work {
+    justify-content: center;
+  }
+
+  .feat_title {
+    font-size: 22px;
+  }
+
+  .f1_credits, .main_credits {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 633px) and (min-width: 425px) {
+  .f1 {
+    width: 60%;
+    margin: 10px;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .f2, .f3 {
+    width: 45%;
+  }
+
+  .f2 {
+    border-right: 1px solid #d9d9d9;
+  }
+
+  .feat_work {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 634px) {
+  h1 {
+    font-size: 50px;
+    top: 40px;
+  }
+
+  h4 {
+    font-size: 20px;
+    top: 40px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .f1_credits, .main_credits {
+    display: none;
+  }
+
+  .f1:hover .f1_credits {
+    display: block;
+  }
+
+  .main_area:hover .main_credits {
+    display: block;
+  }
+}

@@ -1,0 +1,99 @@
+.header {
+  width: 100%;
+  overflow: auto;
+  background-color: #fff;
+}
+
+.logo {
+  width:100px;
+  padding: 5px;
+}
+
+.header_logo {
+  width: 40%;
+  height: 130px;
+  float: left;
+  margin: 0;
+}
+
+.header_title {
+  width: 60%;
+  float: right;
+  text-align: right;
+  height: 130px;
+}
+
+h1, h4 {
+  padding-right: 10px;
+  margin: 0;
+  position: relative;
+  top: 60px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h5, h6{
+  margin: 0;
+  background-color: #fff;
+}
+
+body {
+  background-color: #cdcdcd;
+}
+
+.main_picture {
+  width: 100%;
+}
+
+.main_area {
+  position: relative;
+}
+
+/*   featured section   */
+
+.featured {
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+.feat_title {
+  text-align: left;
+  color: #696969;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.feat_work {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.feat_images {
+  width: 33%;
+  text-align: center;
+}
+
+.second_feat, .third_feat {
+  width: 100px;
+  margin-top: 30px;
+}
+
+.f1_credits, .main_credits {
+  font-size: 12px;
+}
+
+.main_credits {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.f1 {
+  position: relative;
+}
+
+.f1_credits {
+  position: absolute;
+  bottom: 55px;
+  right: 5px;
+}
